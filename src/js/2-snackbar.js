@@ -31,13 +31,4 @@ document.querySelector('.form').addEventListener('submit', function(event) {
 
 
 const customStyle = document.createElement('style');
-        customStyle.textContent = `
-            .form {
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-                flex-direction: column;
-                gap: 8px;
-            }
-        `;
 document.head.appendChild(customStyle);
